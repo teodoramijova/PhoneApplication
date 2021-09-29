@@ -1,0 +1,412 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\PhonesApp\\PhonesApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\BusinessLayerContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\BusinessLayerContract.csproj",
+        "projectName": "BusinessLayerContract",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\BusinessLayerContract.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\DataAccessContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\DataAccessContract.csproj",
+        "projectName": "DataAccessContract",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\DataAccessContract.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\PhonesApp\\PhonesApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\PhonesApp\\PhonesApp.csproj",
+        "projectName": "PhonesApp",
+        "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\PhonesApp\\PhonesApp.csproj",
+        "packagesPath": "C:\\Users\\Tea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\PhonesApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\BusinessLayerContract.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayerContract\\BusinessLayerContract.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\DataAccessContract.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccessContract\\DataAccessContract.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Tea\\source\\repos\\PhoneApplication\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Pioneer.Pagination": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

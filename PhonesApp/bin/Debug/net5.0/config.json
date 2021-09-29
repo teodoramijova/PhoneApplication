@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "connStr": "Data Source=DESKTOP-ALFIBOI\\SQLEXPRESS01;Initial Catalog=PhonesDb;User ID=Teodora;Password=Teodora123"
+  }
+}

@@ -1,0 +1,31 @@
+﻿@model Entities.Models.PhoneViewModel
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("AddOrEdit", "Phone", FormMethod.Post, new { onsubmit = "return SubmitForm(this)" }))
+{
+    @Html.HiddenFor(model => model.Id)
+    <div class="form-group">
+        @Html.LabelFor(model => model.Code, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.Price, new { @class = "control-label" })
+        @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryId, new { @class = "control-label" })
+        @Html.EditorFor(model => Model.CategoryId, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.TypeId, new { @class = "control-label" })
+        @Html.EditorFor(model => Model.TypeId, new { htmlAttributes = new { @class = "form-control" } })
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" id="btnSubmit"/>
+        <input type="reset" value="Reset" class="btn btn-danger" id="btnReset" />
+    </div>
+}
